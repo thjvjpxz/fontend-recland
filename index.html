@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recland</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="wrapper header-wrapper">
+        <a href="/" class="logo">
+          <img src="./assets/images/logo-recland.png" alt="logo-recland" />
+        </a>
+        <nav class="header-nav">
+          <ul class="header-nav__list">
+            <li class="header-nav__item">
+              <a href="#" title="Tất Cả Các Job" class="header-nav__link btn"
+                >Tất Cả Các Job</a
+              >
+            </li>
+            <li class="header-nav__item">
+              <a
+                href="#"
+                title="Đăng ký"
+                class="header-nav__link btn btn--border"
+                >Đăng ký</a
+              >
+            </li>
+            <li class="header-nav__item">
+              <a
+                href="#"
+                title="Đăng Nhập"
+                class="header-nav__link btn btn--solid"
+                >Đăng Nhập</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Banner -->
+    <div class="banner">
+      <img src="./assets/images/banner.png" alt="banner" />
+    </div>
+    <!-- End Banner -->
+    <!-- form search layout -->
+    <div class="form-search-layout wrapper">
+      <form class="form-search">
+        <div class="form-search__input">
+          <img src="./assets/images/icon-search.png" alt="icon-search" />
+          <input type="text" placeholder="Nhập vị trí hoặc từ khóa..." />
+        </div>
+        <div class="form-search__location">
+          <img src="./assets/images/Location.png" alt="location" />
+          <input type="text" placeholder="Chọn địa điểm" />
+          <svg
+            width="24"
+            height="25"
+            viewBox="0 0 24 25"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19.92 9.46265L13.4 15.9826C12.63 16.7526 11.37 16.7526 10.6 15.9826L4.07996 9.46265"
+              stroke="#999999"
+              stroke-width="1.5"
+              stroke-miterlimit="10"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+        <button class="btn btn--solid">Tìm Kiếm</button>
+      </form>
+      <!-- dexuat -->
+      <div class="dexuat">
+        <p>Đề xuất:</p>
+        <ul class="dexuat__list">
+          <li class="dexuat__item"><a href="#">Reactjs</a></li>
+          <li class="dexuat__item"><a href="#">VueJS</a></li>
+          <li class="dexuat__item"><a href="#">Angular</a></li>
+          <li class="dexuat__item"><a href="#">Design</a></li>
+          <li class="dexuat__item"><a href="#">.NET</a></li>
+          <li class="dexuat__item"><a href="#">PHP</a></li>
+          <li class="dexuat__item"><a href="#">java</a></li>
+          <li class="dexuat__item"><a href="#">Mobile</a></li>
+        </ul>
+      </div>
+      <!-- End dexuat -->
+    </div>
+    <!-- End form search layout -->
+    <!-- Wrapper -->
+    <div class="wrapper body-content">
+      <header class="content-head">
+        <div class="content-head__title">
+          <div class="content-head__logo">
+            <div class="logo-border">
+              <div class="logo-padding">
+                <img src="./assets/images/tym.png" alt="tym" />
+              </div>
+            </div>
+          </div>
+          <h1 class="fnt34-w700">Jobs tốt nhất</h1>
+        </div>
+        <div class="content-head__details"><a href="#">Xem Tất Cả</a></div>
+      </header>
+      <!-- Content-body -->
+      <div class="content-body">
+        <div class="card-list">
+          <ul class="card-list__row">
+            <li class="card-list__item1 card">
+              <header class="card-list__title">
+                <div class="card-list__name">
+                  <img
+                    src="./assets/images/img-dataengineer.png"
+                    alt="data-engineer"
+                  />
+                  <p>Data Engineer</p>
+                </div>
+                <div class="card-list__full-time btn--small">
+                  <a href="#">Full-time </a>
+                </div>
+              </header>
+              <div class="card-list__content">
+                <div class="card-list__rose">
+                  <p class="fnt-sz12">Hoa hồng</p>
+                  <p class="inline-pb">12,000,000 <span>VNĐ</span></p>
+                </div>
+                <p style="margin: auto 0; color: rgba(229, 229, 229, 1)">|</p>
+                <div class="card-list__bonus">
+                  <p class="fnt-sz12">Thưởng</p>
+                  <p class="inline-pb">50,000,000 <span>VNĐ</span></p>
+                </div>
+              </div>
+              <footer class="card-list-footer">
+                <ul class="address-list">
+                  <li class="address-list__details btn--small">
+                    <a href="#">Hà Nội</a>
+                  </li>
+                  <li class="address-list__details btn--small">
+                    <a href="#">Onboard</a>
+                  </li>
+                </ul>
+                <div class="btn-pre"><a href="#">PREMIUM</a></div>
+              </footer>
+            </li>
+            <li class="card-list__item2 card">
+              <header class="card-list__title">
+                <div class="card-list__name">
+                  <img
+                    src="./assets/images/img-dataengineer.png"
+                    alt="data-engineer"
+                  />
+                  <p>Junior PHP Developer ~ 15-2...</p>
+                </div>
+                <div class="card-list__full-time btn--small">
+                  <a href="#">Full-time </a>
+                </div>
+              </header>
+              <div class="card-list__content">
+                <div class="card-list__rose">
+                  <p class="fnt-sz12">Hoa hồng</p>
+                  <p class="inline-pb">12,000,000 <span>VNĐ</span></p>
+                </div>
+                <p style="margin: auto 0; color: rgba(229, 229, 229, 1)">|</p>
+                <div class="card-list__bonus">
+                  <p class="fnt-sz12">Thưởng</p>
+                  <p class="inline-pb">50,000,000 <span>VNĐ</span></p>
+                </div>
+              </div>
+              <footer class="card-list-footer">
+                <ul class="address-list">
+                  <li class="address-list__details btn--small">
+                    <a href="#">Hà Nội</a>
+                  </li>
+                  <li class="address-list__details btn--small">
+                    <a href="#">Onboard</a>
+                  </li>
+                </ul>
+                <div class="btn-pre"><a href="#">PREMIUM</a></div>
+              </footer>
+            </li>
+            <li class="card-list__item3 card">
+              <header class="card-list__title">
+                <div class="card-list__name">
+                  <img
+                    src="./assets/images/img-dataengineer.png"
+                    alt="data-engineer"
+                  />
+                  <p>Senior PHP Developer ~ Upto 40M</p>
+                </div>
+                <div class="card-list__full-time btn--small">
+                  <a href="#">Full-time </a>
+                </div>
+              </header>
+              <div class="card-list__content">
+                <div class="card-list__rose">
+                  <p class="fnt-sz12">Hoa hồng</p>
+                  <p class="inline-pb">12,000,000 <span>VNĐ</span></p>
+                </div>
+                <p style="margin: auto 0; color: rgba(229, 229, 229, 1)">|</p>
+                <div class="card-list__bonus">
+                  <p class="fnt-sz12">Thưởng</p>
+                  <p class="inline-pb">50,000,000 <span>VNĐ</span></p>
+                </div>
+              </div>
+              <footer class="card-list-footer">
+                <ul class="address-list">
+                  <li class="address-list__details btn--small">
+                    <a href="#">Hà Nội</a>
+                  </li>
+                  <li class="address-list__details btn--small">
+                    <a href="#">Onboard</a>
+                  </li>
+                </ul>
+                <div class="btn-pre"><a href="#">PREMIUM</a></div>
+              </footer>
+            </li>
+          </ul>
+          <ul class="card-list__row">
+            <li class="card-list__item1 card">
+              <header class="card-list__title">
+                <div class="card-list__name">
+                  <img
+                    src="./assets/images/img-dataengineer.png"
+                    alt="data-engineer"
+                  />
+                  <p>Java Software Engineer (multiple positions)</p>
+                </div>
+                <div class="card-list__full-time btn--small">
+                  <a href="#">Full-time </a>
+                </div>
+              </header>
+              <div class="card-list__content">
+                <div class="card-list__rose">
+                  <p class="fnt-sz12">Hoa hồng</p>
+                  <p class="inline-pb">12,000,000 <span>VNĐ</span></p>
+                </div>
+                <p style="margin: auto 0; color: rgba(229, 229, 229, 1)">|</p>
+                <div class="card-list__bonus">
+                  <p class="fnt-sz12">Thưởng</p>
+                  <p class="inline-pb">50,000,000 <span>VNĐ</span></p>
+                </div>
+              </div>
+              <footer class="card-list-footer">
+                <ul class="address-list">
+                  <li class="address-list__details btn--small">
+                    <a href="#">Hà Nội</a>
+                  </li>
+                  <li class="address-list__details btn--small">
+                    <a href="#">Onboard</a>
+                  </li>
+                </ul>
+                <div class="btn-pre"><a href="#">PREMIUM</a></div>
+              </footer>
+            </li>
+            <li class="card-list__item2 card">
+              <header class="card-list__title">
+                <div class="card-list__name">
+                  <img
+                    src="./assets/images/img-dataengineer.png"
+                    alt="data-engineer"
+                  />
+                  <p>Senior Fullstack<br />Engineer</p>
+                </div>
+                <div class="card-list__full-time btn--small">
+                  <a href="#">Full-time </a>
+                </div>
+              </header>
+              <div class="card-list__content">
+                <div class="card-list__rose">
+                  <p class="fnt-sz12">Hoa hồng</p>
+                  <p class="inline-pb">12,000,000 <span>VNĐ</span></p>
+                </div>
+                <p style="margin: auto 0; color: rgba(229, 229, 229, 1)">|</p>
+                <div class="card-list__bonus">
+                  <p class="fnt-sz12">Thưởng</p>
+                  <p class="inline-pb">50,000,000 <span>VNĐ</span></p>
+                </div>
+              </div>
+              <footer class="card-list-footer">
+                <ul class="address-list">
+                  <li class="address-list__details btn--small">
+                    <a href="#">Hà Nội</a>
+                  </li>
+                  <li class="address-list__details btn--small">
+                    <a href="#">Onboard</a>
+                  </li>
+                </ul>
+                <div class="btn-pre"><a href="#">PREMIUM</a></div>
+              </footer>
+            </li>
+            <li class="card-list__item3 card">
+              <header class="card-list__title">
+                <div class="card-list__name">
+                  <img
+                    src="./assets/images/img-dataengineer.png"
+                    alt="data-engineer"
+                  />
+                  <p>C++ Network Software Engineer</p>
+                </div>
+                <div class="card-list__full-time btn--small">
+                  <a href="#">Full-time </a>
+                </div>
+              </header>
+              <div class="card-list__content">
+                <div class="card-list__rose">
+                  <p class="fnt-sz12">Hoa hồng</p>
+                  <p class="inline-pb">12,000,000 <span>VNĐ</span></p>
+                </div>
+                <p style="margin: auto 0; color: rgba(229, 229, 229, 1)">|</p>
+                <div class="card-list__bonus">
+                  <p class="fnt-sz12">Thưởng</p>
+                  <p class="inline-pb">50,000,000 <span>VNĐ</span></p>
+                </div>
+              </div>
+              <footer class="card-list-footer">
+                <ul class="address-list">
+                  <li class="address-list__details btn--small">
+                    <a href="#">Hà Nội</a>
+                  </li>
+                  <li class="address-list__details btn--small">
+                    <a href="#">Onboard</a>
+                  </li>
+                </ul>
+                <div class="btn-pre"><a href="#">PREMIUM</a></div>
+              </footer>
+            </li>
+          </ul>
+          <ul class="card-list__row">
+            <li class="card-list__item1 card">
+              <header class="card-list__title">
+                <div class="card-list__name">
+                  <img
+                    src="./assets/images/img-dataengineer.png"
+                    alt="data-engineer"
+                  />
+                  <p>Junior PHP Developer ~ 15-2...</p>
+                </div>
+                <div class="card-list__full-time btn--small">
+                  <a href="#">Full-time </a>
+                </div>
+              </header>
+              <div class="card-list__content">
+                <div class="card-list__rose">
+                  <p class="fnt-sz12">Hoa hồng</p>
+                  <p class="inline-pb">12,000,000 <span>VNĐ</span></p>
+                </div>
+                <p style="margin: auto 0; color: rgba(229, 229, 229, 1)">|</p>
+                <div class="card-list__bonus">
+                  <p class="fnt-sz12">Thưởng</p>
+                  <p class="inline-pb">50,000,000 <span>VNĐ</span></p>
+                </div>
+              </div>
+              <footer class="card-list-footer">
+                <ul class="address-list">
+                  <li class="address-list__details btn--small">
+                    <a href="#">Hà Nội</a>
+                  </li>
+                  <li class="address-list__details btn--small">
+                    <a href="#">Onboard</a>
+                  </li>
+                </ul>
+                <div class="btn-pre"><a href="#">PREMIUM</a></div>
+              </footer>
+            </li>
+            <li class="card-list__item2 card">
+              <header class="card-list__title">
+                <div class="card-list__name">
+                  <img
+                    src="./assets/images/img-dataengineer.png"
+                    alt="data-engineer"
+                  />
+                  <p>Junior PHP Developer ~ 15-2...</p>
+                </div>
+                <div class="card-list__full-time btn--small">
+                  <a href="#">Full-time </a>
+                </div>
+              </header>
+              <div class="card-list__content">
+                <div class="card-list__rose">
+                  <p class="fnt-sz12">Hoa hồng</p>
+                  <p class="inline-pb">12,000,000 <span>VNĐ</span></p>
+                </div>
+                <p style="margin: auto 0; color: rgba(229, 229, 229, 1)">|</p>
+                <div class="card-list__bonus">
+                  <p class="fnt-sz12">Thưởng</p>
+                  <p class="inline-pb">50,000,000 <span>VNĐ</span></p>
+                </div>
+              </div>
+              <footer class="card-list-footer">
+                <ul class="address-list">
+                  <li class="address-list__details btn--small">
+                    <a href="#">Hà Nội</a>
+                  </li>
+                  <li class="address-list__details btn--small">
+                    <a href="#">Onboard</a>
+                  </li>
+                </ul>
+                <div class="btn-pre"><a href="#">PREMIUM</a></div>
+              </footer>
+            </li>
+            <li class="card-list__item3 card">
+              <header class="card-list__title">
+                <div class="card-list__name">
+                  <img
+                    src="./assets/images/img-dataengineer.png"
+                    alt="data-engineer"
+                  />
+                  <p>Junior PHP Developer ~ 15-2...</p>
+                </div>
+                <div class="card-list__full-time btn--small">
+                  <a href="#">Full-time </a>
+                </div>
+              </header>
+              <div class="card-list__content">
+                <div class="card-list__rose">
+                  <p class="fnt-sz12">Hoa hồng</p>
+                  <p class="inline-pb">12,000,000 <span>VNĐ</span></p>
+                </div>
+                <p style="margin: auto 0; color: rgba(229, 229, 229, 1)">|</p>
+                <div class="card-list__bonus">
+                  <p class="fnt-sz12">Thưởng</p>
+                  <p class="inline-pb">50,000,000 <span>VNĐ</span></p>
+                </div>
+              </div>
+              <footer class="card-list-footer">
+                <ul class="address-list">
+                  <li class="address-list__details btn--small">
+                    <a href="#">Hà Nội</a>
+                  </li>
+                  <li class="address-list__details btn--small">
+                    <a href="#">Onboard</a>
+                  </li>
+                </ul>
+                <div class="btn-pre"><a href="#">PREMIUM</a></div>
+              </footer>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- End Content-body -->
+      <!-- why-select -->
+      <div class="why-select">
+        <header class="why-select__header">
+          <p>Why?</p>
+          <h1 class="fnt34-w700">Tại Sao Lựa Chọn Recland?</h1>
+        </header>
+        <article>
+          <ul class="why-select-body">
+            <li class="why-select-body__item color-lightgreen">
+              <img src="./assets/images/Search.png" alt="search" />
+              <div class="why-select-body__content">
+                <h2>Đa dạng việc làm, thêm nhiều lựa chọn hấp dẫn</h2>
+                <p>
+                  Hơn 200+ việc làm IT, giúp các bạn REC có một kho việc làm để
+                  các bạn tìm kiếm, sale jobs đến những ứng viên phù hợp.
+                </p>
+              </div>
+            </li>
+            <li class="why-select-body__item color-lightpurpol">
+              <img src="./assets/images/Dollar.png" alt="search" />
+              <div class="why-select-body__content">
+                <h2>Cơ chế hoa hồng hấp dẫn, rõ ràng và minh bạch</h2>
+                <p>
+                  RecLand đem đến cho các bạn REC mức hoa hồng hấp dẫn, giúp cho
+                  các bạn REC có được mức thu nhập tương xứng mà không cần đến
+                  công ty làm việc
+                </p>
+              </div>
+            </li>
+            <li class="why-select-body__item color-lightorange">
+              <img src="./assets/images/Network.png" alt="search" />
+              <div class="why-select-body__content">
+                <h2>Mở rộng network và học hỏi từ cộng đồng</h2>
+                <p>
+                  RecLand cũng thường xuyên tổ chức những buổi chia sẻ, buổi
+                  offline nhằm giúp các bạn REC trau dồi, học hỏi và mở rộng
+                  được network trong lĩnh vực tuyển dụng.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </article>
+      </div>
+      <!-- end why-select -->
+      <!-- Partner -->
+      <article class="partner">
+        <h1 class="fnt34-w700">Đối Tác</h1>
+        <ul class="partner-list">
+          <li class="partner-list__item">
+            <img src="./assets/images/picture-1.png" alt="img-picture1" />
+          </li>
+          <li class="partner-list__item">
+            <img src="./assets/images/picture-2.png" alt="img-picture2" />
+          </li>
+          <li class="partner-list__item">
+            <img src="./assets/images/picture-3.png" alt="img-picture3" />
+          </li>
+          <li class="partner-list__item">
+            <img src="./assets/images/picture-4.png" alt="img-picture4" />
+          </li>
+          <li class="partner-list__item">
+            <img src="./assets/images/picture-5.png" alt="img-picture5" />
+          </li>
+        </ul>
+      </article>
+      <!-- end Partner -->
+      <!-- hoptac -->
+      <article class="hoptac">
+        <header class="hoptac-header">
+          <p
+            style="
+              color: rgba(2, 26, 132, 1);
+              font-size: 18px;
+              font-weight: 400;
+            "
+          >
+            Quy trình làm việc
+          </p>
+          <h1 class="fnt34-w700">Hợp tác cùng RecLand</h1>
+        </header>
+        <ul class="hoptac-content">
+          <li class="hoptac-content__item">
+            <div class="custom-number"><h2>1</h2></div>
+            <div class="hoptac-content__logo">
+              <img src="./assets/images/Add.png" alt="add-picture" />
+            </div>
+            <div class="hoptac-content__title">
+              <h1>Tạo một tài khoản</h1>
+              <p>Trở thành member trên RecLand</p>
+            </div>
+          </li>
+          <li class="hoptac-content__item">
+            <div class="custom-number"><h2>2</h2></div>
+            <div class="hoptac-content__logo">
+              <img src="./assets/images/Search-orange.png" alt="add-picture" />
+            </div>
+            <div class="hoptac-content__title">
+              <h1>Tìm kiếm công việc</h1>
+              <p>Tìm kiếm công việc phù hợp để mời ứng viên</p>
+            </div>
+          </li>
+          <li class="hoptac-content__item">
+            <div class="custom-number"><h2>3</h2></div>
+            <div class="hoptac-content__logo">
+              <img src="./assets/images/Shield.png" alt="add-picture" />
+            </div>
+            <div class="hoptac-content__title">
+              <h1>Giới thiệu ứng viên</h1>
+              <p>
+                Giới thiệu ứng viên vào các vị trí đang tuyển, process ứng viên
+                và nhận kết quả
+              </p>
+            </div>
+          </li>
+        </ul>
+      </article>
+      <!-- end hoptac -->
+    </div>
+    <!-- End Wrapper -->
+    <!-- Footer -->
+    <footer class="wrapper footer-end">
+      <header class="register-header">
+        <div class="register-header__title">
+          <div class="logo-border">
+            <div class="logo-padding">
+              <img src="./assets/images/tym.png" alt="tym" />
+            </div>
+          </div>
+          <div class="register-header__body">
+            <h2>Bạn muốn đến với</h2>
+            <p>Recland Chúng tôi sẽ giúp bạn thành công trên con đường Recer</p>
+          </div>
+        </div>
+        <div class="register-header__button">
+          <a href="#" class="btn btn--solid bt_sz153">Đăng Ký Ngay</a>
+        </div>
+      </header>
+
+      <article class="footer-body">
+        <div class="enter-email">
+          <div class="enter-email__enter">
+            <input type="text" placeholder="Enter your email address" />
+            <div class="enter-email__btn">
+              <a href="#"><img src="./assets/images/Send.png" alt="send" /></a>
+            </div>
+          </div>
+          <div class="enter-email__details">
+            <div class="enter-email__work">
+              <div class="enter-email__quantily">
+                <div class="padding_3lop"><p>199</p></div>
+              </div>
+              <p class="enter-email__name enter-email__font">Công việc</p>
+            </div>
+            <div class="enter-email__company">
+              <div class="enter-email__quantily">
+                <div class="padding_3lop"><p>93</p></div>
+              </div>
+              <p class="enter-email__name enter-email__font">Công ty</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <footer class="footer">
+        <p>Copyright © 2022 Recland.co THIDZ</p>
+      </footer>
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>
